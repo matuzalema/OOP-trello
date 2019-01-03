@@ -1,0 +1,103 @@
+@import 'variables';
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900');
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; 
+}
+
+body {
+	color: $fiveth-color;
+  background-color: $second-color;
+	font-family: 'Roboto', sans-serif;
+}
+
+#board {
+  width: 80%;
+  margin: 50px auto;
+  background-color: $main-color;
+  padding: 30px 0;
+}
+
+.column-container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.column {
+  width: 200px;
+  background-color: $second-color;
+  padding: 10px;
+  border: 2px solid $third-color;
+  border-radius: 3px;
+  margin: 30px;
+  min-height: 400px;
+}
+
+h1 {
+  text-align: center;
+  text-transform: uppercase;
+  padding: 10px;
+}
+
+.create-column {
+  margin: 10px auto;
+  display: block;
+  width: 120px;
+  font-weight: 500;
+  height: 40px;
+  background-color: $third-color;
+  text-transform: uppercase;
+  color: $font-color-dark;
+  border: none;
+  outline: none;
+  border-radius: 2px;
+  cursor: pointer; }
+  .create-column:hover {
+    background-color: $second-color;
+    color: $fiveth-color;
+}
+
+.first-header {
+  font-size: $first-header;
+}
+
+.second-header {
+  font-size: $second-header;
+  border-bottom: 1px solid $third-color;
+  text-align: center;
+  padding: 10px;
+  text-transform: uppercase;
+}
+
+.card-description {
+  padding: 10px;
+  margin: 10px auto;
+  background-color: $sixth-color;
+  color: $font-color-dark;
+  font-size: 14px;
+}
+
+.btn-delete {
+  width: 25px;
+  height: 25px;
+  background-color: $delete-color;
+  color: white;
+  font-size: 18px;
+  border: none;
+  border-radius: 2px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.add-card {
+  background-color: $third-color;
+  border: none;
+  padding: 5px;
+  color: $font-color-dark;
+  border-radius: 2px;
+  cursor: pointer;
+}
