@@ -1,4 +1,4 @@
-// document.addEventListener('DOMContentLoaded', function() {
+document.addEventListener('DOMContentLoaded', function() {
 function randomString() {
     var chars = '0123456789abcdefghiklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXTZ';
     var str = '';
@@ -119,4 +119,4 @@ todoColumn.addCard(card1);
 doingColumn.addCard(card2);
 doneColumn.addCard(card3);
 
-// });
+});

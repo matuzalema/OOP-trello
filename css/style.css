@@ -50,10 +50,9 @@ h1 {
   outline: none;
   border-radius: 2px;
   cursor: pointer; }
-
-.create-column:hover {
-  background-color: #8ACBBB;
-  color: white; }
+  .create-column .create-column:hover {
+    background-color: #8ACBBB;
+    color: white; }
 
 .first-header {
   font-size: 28px; }
@@ -103,3 +102,6 @@ h1 {
 
 .card {
   position: relative; }
+
+.column-card-list {
+  min-height: 10px; }
