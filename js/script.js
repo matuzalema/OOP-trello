@@ -71,14 +71,14 @@ Card.prototype = {
 	removeCard: function() {
 		this.element.parentNode.removeChild(this.element);
     }
-}
+};
 
-// ============== Card class ====================
+// ============== board ====================
 var board = {
     name: 'Kanban Board',
     addColumn: function(column) {
       this.element.appendChild(column.element);
-      initSortable(column.id); //About this feature we will tell later
+      initSortable(column.id);
     },
     element: document.querySelector('#board .column-container')
 };
@@ -119,13 +119,4 @@ todoColumn.addCard(card1);
 doingColumn.addCard(card2);
 doneColumn.addCard(card3);
 
-
-
-
-
-
-
-
-
-// here we will put the code of our application
 // });
