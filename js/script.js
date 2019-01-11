@@ -59,7 +59,7 @@ function Card(description) {
   this.element = generateTemplate('card-template', { description: this.description }, 'li');
 
   this.element.querySelector('.card').addEventListener('click', function (event) {
-    event.stopPropagation();
+     event.stopPropagation();
 
     if (event.target.classList.contains('btn-delete')) {
       self.removeCard();
