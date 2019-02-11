@@ -15,7 +15,7 @@ function Card(id, name) {
 }
 
 Card.prototype = {
-	removeCard: function() {
+  removeCard: function() {
   var self = this;
 
   fetch(baseUrl + '/card/' + self.id, { method: 'DELETE', headers: myHeaders })

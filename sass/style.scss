@@ -72,6 +72,9 @@ h1 {
   padding: 10px;
   text-transform: uppercase;
   position: relative;
+  max-width: 225px;
+  width: auto;
+  overflow: hidden;
 }
 
 .card-description {
@@ -80,6 +83,7 @@ h1 {
   background-color: $sixth-color;
   color: $font-color-dark;
   font-size: 14px;
+  overflow: hidden;
 }
 
 .btn-delete {
